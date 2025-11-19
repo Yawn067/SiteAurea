@@ -1,0 +1,93 @@
+.servicos-cards {
+    margin: 8% 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.servicos-cards h1 {
+    background: linear-gradient(135deg, #1a2a6c, #2b5876);
+    padding: 15px 100px;   
+    border-radius: 20px;
+    font-size: 3.5rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #dbb826;
+    margin-bottom: 5px;
+}
+
+.servicos-cards h2 {
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+    color: #0d132e;
+    margin-bottom: 40px;
+}
+
+.servicos-cards-container {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+    height: 150px;
+    background-size: cover;
+    color: ivory;
+
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card h3 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Roboto Mono', monospace;
+    color: ivory;
+}
+
+.card p {
+    font-size: 1.2rem;
+    color: ivory;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.card:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); 
+  color: ivory;
+}
+
+@media (max-width: 768px) {
+    .servicos-cards h1 {
+        font-size: 2rem;
+        padding: 10px 50px;
+        text-align: center;
+    }
+
+    .servicos-cards h2 {
+        font-size: 1.2rem;
+        text-align: center;
+        margin-bottom: 10px;
+    }   
+
+    .servicos-cards-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .card {
+        width: 90%;
+        height: auto;
+    }
+}

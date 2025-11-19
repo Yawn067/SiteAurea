@@ -1,0 +1,76 @@
+.rodape {
+    padding: 20px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: linear-gradient(135deg, #1a2a6c, #2b5876);
+}
+
+.rodape-elementos{
+    margin-left: 10%;
+    display: flex;
+    gap: 5%;
+}
+
+.rodape img {
+    width: 200px;
+    object-fit: contain;
+}
+
+.rodape-elementos-infos{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rodape-elementos-infos div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.rodape-elementos-infos img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.rodape p {
+    font-family: Arial, Helvetica, sans-serif;
+   
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .rodape {
+        padding: 20px 2px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .rodape-elementos{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        gap: 20px;
+    }
+
+    .rodape-elementos-infos{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .rodape img {
+        width: 120px;
+    }
+
+    .rodape p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+}

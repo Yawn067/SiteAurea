@@ -1,0 +1,102 @@
+.parcerias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 100px;
+    padding: 50px 0;
+}
+
+.parcerias h1 {
+    font-family: 'Arial Black', Arial, sans-serif;
+    font-size: 40px;
+    color: #0d132e;
+    text-align: center;
+}
+
+.parcerias p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #0d132e;
+    text-align: center;
+    max-width:90%;
+}
+
+.parcerias-logos {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.parcerias-logos-logo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 200px;
+}
+
+.parcerias-logos-logo div{
+    width: 150px;
+    height: 150px;
+}
+
+.parcerias-logos-logo h2{
+    font-family: 'Arial Black', Arial, sans-serif;
+    font-size: 24px;
+    color: #0d132e;
+}
+
+.parcerias-logos-logo p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #0d132e;
+    margin-top: 10px;
+}
+
+.parcerias img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .parcerias {
+        padding: 20px 2%;
+        margin-top: 50px;
+        gap: 20px;
+    }
+
+    .parcerias h1 {
+        font-size: 28px;
+    }
+
+    .parcerias p {
+        font-size: 16px;
+    }
+
+    .parcerias-logos {
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .parcerias-logos-logo {
+        max-width: 120px;
+    }
+
+    .parcerias-logos-logo div{
+        width: 100px;
+        height: 100px;
+    }
+
+    .parcerias-logos-logo h2{
+        font-size: 18px;
+    }
+
+    .parcerias-logos-logo p {
+        font-size: 12px;
+    }
+}

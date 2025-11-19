@@ -1,0 +1,44 @@
+.card-ampliado {
+    margin: 150px auto 100px auto; /* Centraliza horizontalmente */
+    background-size: cover;
+    width: 80%;
+    text-align: center;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+.card-ampliado h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Roboto Mono', monospace;
+    color: ivory;
+}
+
+.card-ampliado p {
+    font-size: 1.5rem;
+    color: ivory;
+    font-family: 'Roboto Mono', monospace;
+}
+
+@media screen and (max-width: 768px) {
+    .card-ampliado {
+        width: 90%;
+        height: 250px;
+        margin: 100px auto 50px auto;
+    }
+
+    .card-ampliado h1 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+
+    .card-ampliado p {
+        font-size: 1.2rem;
+    }
+}

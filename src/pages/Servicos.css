@@ -1,0 +1,17 @@
+.servicos-texto h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.servicos-texto p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+.servicos-texto {
+    margin: 20px 10%;
+}
