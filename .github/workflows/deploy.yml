@@ -3,7 +3,10 @@ name: Deploy Vite to GitHub Pages
 on:
   push:
     branches:
-      - master  # muda se seu branch principal for main
+      - master
+
+permissions:
+  contents: write
 
 jobs:
   build-and-deploy:
